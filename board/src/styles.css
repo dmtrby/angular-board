@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+.wrapper {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 100px 1fr 60px;
+  grid-gap: 10px 20px;
+}
