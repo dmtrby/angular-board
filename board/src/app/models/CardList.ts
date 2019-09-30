@@ -1,12 +1,4 @@
-import User from './User';
-
-export interface Card {
-  id: string;
-  name: string;
-  description: string;
-  dueDate?: Date | string;
-  assignee?: User;
-}
+import { Card } from './Card';
 
 export interface CardList {
   id: string;

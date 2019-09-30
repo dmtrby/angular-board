@@ -1,2 +1,13 @@
-<p>card-list</p>
-<app-card-item class="card-item"></app-card-item>
+<mat-card class="card-list">
+  <mat-card-title>{{ card.name }}</mat-card-title>
+  <mat-card-content>
+    <mat-list>
+      <app-card-item *ngFor="let item of card.cards" [item]="item">
+      </app-card-item>
+    </mat-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

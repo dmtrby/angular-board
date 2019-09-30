@@ -14,6 +14,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { FormsModule } from '@angular/forms';
     MatToolbarModule,
     MatInputModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    MatCardModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
